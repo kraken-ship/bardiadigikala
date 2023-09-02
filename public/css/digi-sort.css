@@ -1,0 +1,78 @@
+div.digi-sort{
+    width: 100%;
+    height: 400px;
+}
+div.digi-sort>div.one{
+    width: 100%;
+    height:64px;
+    text-align: center;
+}
+div.digi-sort>div.one>h4{
+    font-weight: 500;
+    font-size: 24px;
+    font-family: yekan;
+    display: inline-block;
+    margin-top: 12px;
+}
+div.digi-sort>div.two{
+    width: 100%;
+    height: 167px;
+    text-align: center;
+}
+div.digi-sort>div.two>div.sub1{
+    width: 157px;
+    height: 147px;
+    display:inline-block;
+    margin-left: 7px;
+    vertical-align: top;
+}
+div.digi-sort>div.two>div.sub1>a{
+    text-decoration: none;
+    display: inline-block;
+}
+div.digi-sort>div.two>div.sub1>a>div{
+    width: 150px;
+    height: 140px;
+}
+div.digi-sort>div.two>div.sub1>a>div>img{
+    width: 120px;
+    height: 120px;
+}
+div.digi-sort>div.two>div.sub1>a>div>h4{
+    display: block;
+    font-weight: normal;
+    font-family: yekan;
+    font-size: 12px;
+    margin-top: -9px;
+}
+div.digi-sort>div.three{
+    width: 100%;
+    height: 167px;
+    text-align: center;
+}
+div.digi-sort>div.three>div.sub2{
+    width: 157px;
+    height: 147px;
+    display:inline-block;
+    margin-left: 7px;
+    vertical-align: top;
+}
+div.digi-sort>div.three>div.sub2>a{
+    text-decoration: none;
+    display: inline-block;
+}
+div.digi-sort>div.three>div.sub2>a>div{
+    width: 150px;
+    height: 140px;
+}
+div.digi-sort>div.three>div.sub2>a>div>img{
+    width: 120px;
+    height: 120px;
+}
+div.digi-sort>div.three>div.sub2>a>div>h4{
+    display: block;
+    font-weight: normal;
+    font-family: yekan;
+    font-size: 12px;
+    margin-top: -9px;
+}

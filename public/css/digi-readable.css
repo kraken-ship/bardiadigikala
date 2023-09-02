@@ -1,0 +1,76 @@
+div.digi-readable{
+    width: 97%;
+    height: 350px;
+    position: relative;
+    top: 15px;
+    right: 0.5%;
+}
+div.digi-readable>div.title{
+    width: 100%;
+    height: 50px;
+}
+div.digi-readable>div.title>a:nth-child(1){
+    position: absolute;
+    font-size: 18px;
+    font-family: yekan;
+    color: black;
+    font-weight: normal;
+    top: 10px;
+    right: 113px;
+}
+div.digi-readable>div.title>a:nth-child(2){
+    position: absolute;
+    font-size: 13px;
+    font-family: yekan;
+    color: aqua;
+    font-weight: normal;
+    top: 12px;
+    left: 110px;
+}
+div.digi-readable>div.title>svg{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    fill: aqua;
+}
+div.digi-readable>div.content{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+div.digi-readable>div.content>div.sub-content{
+    width: 317px;
+    height: 277px;
+    position: absolute;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    top: 7px;
+    right: 85px;
+}
+div.digi-readable>div.content>div.sub-content>a{
+    display: block;
+    position: absolute;
+}
+div.digi-readable>div.content>div.sub-content>a>img{
+    width: 317px;
+    height: 178px;
+    border-radius: 15px 15px 0px 0px;
+}
+div.digi-readable>div.content>div.sub-content>a>h4{
+    margin-top: 25px;
+    margin-right: 21px;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+}
+div.digi-readable>div.content>div.sub-content:nth-child(2){
+    right: 418px;
+}
+div.digi-readable>div.content>div.sub-content:nth-child(3){
+    right: 754px;
+}
+div.digi-readable>div.content>div.sub-content:nth-child(4){
+    right: 1089px;
+}

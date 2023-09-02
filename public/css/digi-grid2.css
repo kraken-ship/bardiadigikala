@@ -1,0 +1,296 @@
+div.digi-grid2{
+    width: 100%;
+    height: 394px;
+    position: relative;
+}
+div.digi-grid2>div.digi-insidegrid{
+    top: 2%;
+    right: 6.5%;
+    width: 87%;
+    height: 385px;
+    border-radius: 20px;
+    background-color: #941B80;
+    position: absolute;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1{
+    position: absolute;
+    width: 33%;
+    height: 350px;
+    right: 0px;
+    top: 16px;
+    background-image: url(../images/digi-grid2/1.png);
+    background-size: 372px 279px;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1>a.one{
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    top: 20px;
+    right:16px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1>a.one>svg{
+    height: 54px;
+    width: 145px;
+}
+
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1>a.one>svg>path{
+    
+    fill: white;
+    scale: 1.50;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1>h4{
+    right: 18px;
+    top: 65px;
+    display: inline-block;
+    position: absolute;
+    font-family: yekan;
+    color: white;
+    font-size: 15px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1>a.two{
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    top: 97px;
+    right: 14px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1>a.two>button{
+    width: 110px;
+    height: 36px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1>a.two>button>svg{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 55px;
+    top: 5px;
+    fill: white;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid1>a.two>button>h2{
+    position:absolute ;
+    display: inline-block;
+    font-size: 13px;
+    font-family: yekan;
+    color: white;
+    top: 7px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2{
+    position: absolute;
+    background-color: white;
+    width: 33%;
+    height: 350px;
+    right: 433px;
+    top: 16px;
+    border-radius: 0px 10px 10px 0px;
+   
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.title{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.title>svg{
+    right: 15px;
+    width: 24px;
+    position: absolute;
+    top: 25%;
+    height: 24px;
+    vertical-align: middle;
+    fill: #b12ba4;
+}
+
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.title>h2{
+    display: inline-block;
+    position: absolute;
+    right: 46px;
+    top: 23%;
+    font-size: 15px;
+    font-family: yekan;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.title>a{
+    top: 20%;
+    left: 10px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align:middle;
+    position: absolute;
+    color: #b12ba4;
+    font-size: 12px;
+    font-family: yekan;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.title>a>svg{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: text-bottom;
+    scale: 0.9;
+    fill: #b12ba4;
+
+}
+
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main>a{
+    text-decoration: none;
+    text-align: center;
+    margin-right: 16px;
+    margin-top: 12px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main>a>img{
+    width: 116px;
+    height: 116px;
+
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main>a>h2{
+    text-align: center;
+    font-size: 10px;
+    font-family: yekan;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    width: 73px;
+    height: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+    right: 16px;
+    top: 104px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main>a:nth-child(2)>h2{
+    right: 153px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main>a:nth-child(3)>h2{
+    right: 289px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main>a:nth-child(4)>h2{
+    top: 242px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main>a:nth-child(5)>h2{
+right: 154px;
+top: 242px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid2>div.main>a:nth-child(6)>h2{
+    right: 289px;
+top: 242px;
+}
+
+/* 66666666666666666666666666666666666666666666666 */
+
+
+
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3{
+    position: absolute;
+    background-color: white;
+    width: 33%;
+    height: 350px;
+    right: 873px;
+    top: 16px;
+    border-radius: 10px 0px 0px 10px;
+   
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.title{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.title>svg{
+    right: 15px;
+    width: 24px;
+    position: absolute;
+    top: 25%;
+    height: 24px;
+    vertical-align: middle;
+    fill: #b12ba4;
+}
+
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.title>h2{
+    display: inline-block;
+    position: absolute;
+    right: 46px;
+    top: 23%;
+    font-size: 15px;
+    font-family: yekan;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.title>a{
+    top: 20%;
+    left: 10px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align:middle;
+    position: absolute;
+    color: #b12ba4;
+    font-size: 12px;
+    font-family: yekan;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.title>a>svg{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: text-bottom;
+    scale: 0.9;
+    fill: #b12ba4;
+
+}
+
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main>a{
+    text-decoration: none;
+    text-align: center;
+    margin-right: 16px;
+    margin-top: 12px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main>a>img{
+    width: 116px;
+    height: 116px;
+
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main>a>h2{
+    text-align: center;
+    font-size: 10px;
+    font-family: yekan;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    width: 73px;
+    height: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+    right: 16px;
+    top: 104px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main>a:nth-child(2)>h2{
+    right: 153px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main>a:nth-child(3)>h2{
+    right: 289px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main>a:nth-child(4)>h2{
+    top: 242px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main>a:nth-child(5)>h2{
+right: 154px;
+top: 242px;
+}
+div.digi-grid2>div.digi-insidegrid>div.digi-subgrid3>div.main>a:nth-child(6)>h2{
+    right: 289px;
+top: 242px;
+}

@@ -1,0 +1,141 @@
+div.digiclub-poster{
+    width: 100%;
+    height: 86px;
+    text-align: center;
+    position: relative;
+}
+div.digiclub-poster>div.club-poster{
+    width: 87%;
+    height: 81px;
+    background-color: #007295;
+    border-radius: 13px;
+    position: absolute;
+    right: 6.5%;
+    width: 87%;
+    top: 4%;
+
+}
+div.digiclub-poster>div.club-poster>a.club-logo{
+    text-align: center;
+  position: absolute;
+  top: 20%;
+  right: 2%;
+
+}
+div.digiclub-poster>div.club-poster>a.club-logo>img{
+    width: 154px;
+    height: 42px;
+    
+}
+div.digiclub-poster>div.club-poster>div.club-box{
+    width: 270px;
+    height: 62px;
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 11%;
+    right: 486px;
+    border-radius: 0px 8px 8px 0px;
+}
+div.digiclub-poster>div.club-poster>div.club-box>a>img{
+    width: 168px;
+    height: 60px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+
+}
+div.digiclub-poster>div.club-poster>div.club-box>a>svg{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    fill: aqua;
+}
+div.digiclub-poster>div.club-poster>div.club-box>a>h2{
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+    right: 43px;
+    top: 32%;
+
+}
+/* ///////////////////////////////////// */
+div.digiclub-poster>div.club-poster>div.club-box1{
+    width: 270px;
+    height: 62px;
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 11%;
+    right: 761px;
+}
+div.digiclub-poster>div.club-poster>div.club-box1>a>img{
+    width: 168px;
+    height: 60px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+
+}
+div.digiclub-poster>div.club-poster>div.club-box1>a>svg{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    fill: aqua;
+}
+div.digiclub-poster>div.club-poster>div.club-box1>a>h2{
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+    right: 43px;
+    top: 32%;
+    
+}
+/* ////////////////////////////////////////////////// */
+div.digiclub-poster>div.club-poster>div.club-box2{
+    width: 270px;
+    height: 62px;
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 11%;
+    right: 1037px;
+    border-radius: 8px 0px 0px 8px;
+}
+div.digiclub-poster>div.club-poster>div.club-box2>a>img{
+    width: 168px;
+    height: 60px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+border-radius: 8px 0px 0px 8px;
+}
+div.digiclub-poster>div.club-poster>div.club-box2>a>svg{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    fill: aqua;
+}
+div.digiclub-poster>div.club-poster>div.club-box2>a>h2{
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+    right: 43px;
+    top: 32%;
+    
+}

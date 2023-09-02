@@ -1,0 +1,590 @@
+header {
+ 
+    width: 100%;
+    position: sticky;
+    height: 170px;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+
+}
+
+header>div.header-top {
+    width: inherit;
+    height: 60px;
+}
+
+header>div.header-top>a>img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+header>div.header-top>a {
+    text-decoration: none;
+    width: 100%;
+    height: inherit;
+    display: inline-block;
+    object-position: center center;
+}
+
+header>div.header-bottom {
+    width: 100%;
+    height: 112px;
+    box-shadow: 0 1px 2px lightgray;
+}
+
+header>div.header-bottom>div.bTop {
+    width: 100%;
+    height: 70px;
+}
+header>div.header-bottom>div.bTop>a.logo{
+    width: 10%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+}
+
+header>div.header-bottom>div.bTop>a.logo>div.logo {
+    width: 100%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header>div.header-bottom>div.bTop>div.logo>svg{
+    width: 100%;
+    margin-top: 20px;
+
+}
+header>div.header-bottom>div.bTop>div.logo>g{
+    fill: red;
+}
+
+
+header>div.header-bottom>div.bTop>div.search {
+    width: 70%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    position: relative;
+}
+header>div.header-bottom>div.bTop>div.search>input[type=text]{
+    width: 50%;
+    height: 45px;
+    margin-top: 15px;
+    background-color:#F1F2F4;
+border: unset;
+border-radius: 10px;
+padding-right: 15px; 
+font-family: yekan;
+transition: 300ms;
+}
+
+header>div.header-bottom>div.bTop>div.search>input[type=text]:focus{
+    outline: unset;
+    background-color: violet;
+}
+header>div.header-bottom>div.bTop>div.search>input[type=text]::placeholder{
+    font-size: 11px;
+}
+header>div.header-bottom>div.bTop>div.search>input[type=text]:focus::placeholder{
+    color: whitesmoke;
+}
+header>div.header-bottom>div.bTop>div.search>i{
+    position: absolute;
+    left: 52%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+
+header>div.header-bottom>div.bTop>div.login {
+    width: 20%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+header>div.header-bottom>div.bTop>div.login>a:nth-child(1){
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: yekan;
+    font-size: 11px;
+    color: #2b2b2b;
+    font-weight: bold;
+    word-spacing: 2px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: absolute;
+    left: 63px;
+
+}
+
+header>div.header-bottom>div.bTop>div.login>a>i:nth-child(1){
+    font-size: 16px;
+vertical-align: middle;
+transform: rotate(180deg);
+margin-left: 10px;
+}
+header>div.header-bottom>div.bTop>div.login>a:nth-child(2){
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 78px;
+    left: 3px;
+    text-decoration: none;
+}
+header>div.header-bottom>div.bTop>div.login>a:nth-child(2)>i{
+position: absolute;
+display: inline-block;
+font-size: 20px;
+top: 8px;
+left: 11px;
+transform: rotateY(180deg);
+color: black;
+}
+header>div.header-bottom>div.bTop>div.login>a:nth-child(2)>span{
+    font-size: 29px;
+    position: absolute;
+    left: 43px;
+    color: lightgrey;
+}div.megaMenu{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+div.megaMenu>nav{
+    width: inherit;
+    height: inherit;
+}
+div.megaMenu>nav>div[data-parent]{
+    width: fit-content;
+    height: inherit;
+    display: inline-block;
+    background-color: white;
+    margin-right: -24px;
+}
+div.megaMenu>nav>div[data-parent]>a{
+    display: block;
+    width: auto;
+    padding: 0 10px;
+    height: inherit;
+    line-height: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+div.megaMenu>nav>div[data-parent]>a>svg{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 10px;
+    top: 137px;
+}
+div.megaMenu>nav>div[data-parent]>a>p{
+    display: block;
+    width: auto;
+    padding: 0 10px;
+    height: inherit;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'yekan';
+    margin-right: 15px;
+}
+
+div.megaMenu>nav>div[data-parent]>a:hover{
+    background-color: #6b6b6b;
+}
+div.megaMenu>nav>div>div.subMenu{
+    width: calc(70vw - 60px);
+    height: 50vh;
+    box-shadow: 0px 2px 5px #2b2b2b;
+    display: none;
+    position: absolute;
+    background-color:#6b6b6b ;
+    border-radius: 0px 0px 5px 5px;
+}
+div.megaMenu>nav>div[data-parent]:hover>div.subMenu{
+    display: block;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div{
+width: 18%;
+height: 100%;
+overflow: auto;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height:40px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ababab;
+    color: whitesmoke;
+    font-size: 13px;
+}
+::-webkit-scrollbar{
+    width:5px;
+    background-color:white;
+    border-radius: 5px;
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: lightgray;
+    border-radius: 5px;
+
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: -82px;
+    top: 0;
+    display: block;
+    border-radius: 0px 0px 0px 5px;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>svg{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>p{
+   font-size: 13px;
+   font-family: yekan;
+    position: absolute;
+    right: 50px;
+    top: 1px;
+}
+
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:hover{
+    background-color: #FFFFFF;
+    color: red;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:hover>div.subzero{
+    display: block;
+    
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div{
+    width:24%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 4px;
+    background-color: white;
+    box-sizing: border-box;
+    cursor:default;
+   
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>p{
+    position: absolute;
+    color: aqua;
+    font-size: 12px;
+    font-family: yekan;
+    cursor: pointer;
+    word-spacing: 1px;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>h3{
+position: absolute;
+top: 48px;
+font-size: 12px;
+font-color: bla;
+word-spacing: 1px;
+color: black;
+font-family: 'yekan';
+transition: 300ms;
+cursor: pointer;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>h3:hover{
+    color: red;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span{
+    position: absolute;
+    color: lightgrey;
+    font-size: 12px;
+    font-family: yekan;
+    cursor: pointer;
+    word-spacing: 1px;
+    top: 100px;
+    right: 10px;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(4){
+top: 130px;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(5){
+    top: 160px;
+ }
+ div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(6){
+    top: 190px;
+ }    
+ div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(7){
+    top: 220px;
+ } 
+ div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(8){
+    top: 250px;
+ } 
+ div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(9){
+    top: 280px;
+ } 
+ div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(10){
+    top: 310px;
+ } 
+ 
+ div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span{
+    position: absolute;
+    color: lightgrey;
+    font-size: 12px;
+    font-family: yekan;
+    cursor: pointer;
+    word-spacing: 1px;
+    top: 100px;
+    right: 237px;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(4){
+    top: 130px;
+    }
+    div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(5){
+        top: 160px;
+     }
+     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(6){
+        top: 190px;
+     }    
+     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(7){
+        top: 220px;
+     } 
+     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(8){
+        top: 250px;
+     } 
+     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(9){
+        top: 280px;
+     } 
+     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(10){
+        top: 310px;
+     } 
+     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span{
+        position: absolute;
+        color: lightgrey;
+        font-size: 12px;
+        font-family: yekan;
+        cursor: pointer;
+        word-spacing: 1px;
+        top: 100px;
+        right: 465px;
+    }
+    div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(4){
+        top: 130px;
+        }
+        div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(5){
+            top: 160px;
+         }
+         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(6){
+            top: 190px;
+         }    
+         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(7){
+            top: 220px;
+         } 
+         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(8){
+            top: 250px;
+         } 
+         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(9){
+            top: 280px;
+         } 
+         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(10){
+            top: 310px;
+         } 
+         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span{
+            position: absolute;
+            color: lightgrey;
+            font-size: 12px;
+            font-family: yekan;
+            cursor: pointer;
+            word-spacing: 1px;
+            top: 100px;
+            right: 692px;
+        }
+        div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(4){
+            top: 130px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(5){
+                top: 160px;
+             }
+             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(6){
+                top: 190px;
+             }    
+             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(7){
+                top: 220px;
+             } 
+             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(8){
+                top: 250px;
+             } 
+             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(9){
+                top: 280px;
+             } 
+             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(10){
+                top: 310px;
+             } 
+             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(2)>svg{
+                width: 28px;
+                height: 28px;
+                position: absolute;
+                right: 10px;
+                top: 46px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(2)>p{
+               font-size: 13px;
+               font-family: yekan;
+                position: absolute;
+                right: 50px;
+                top: 37px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(3)>svg{
+                width: 28px;
+                height: 28px;
+                position: absolute;
+                right: 10px;
+                top: 87px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(3)>p{
+               font-size: 13px;
+               font-family: yekan;
+                position: absolute;
+                right: 50px;
+                top: 78px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(4)>svg{
+                width: 28px;
+                height: 28px;
+                position: absolute;
+                right: 10px;
+                top: 126px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(4)>p{
+               font-size: 13px;
+               font-family: yekan;
+                position: absolute;
+                right: 50px;
+                top: 118px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(5)>svg{
+                width: 28px;
+                height: 28px;
+                position: absolute;
+                right: 10px;
+                top: 167px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(5)>p{
+               font-size: 13px;
+               font-family: yekan;
+                position: absolute;
+                right: 50px;
+                top: 158px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(6)>svg{
+                width: 28px;
+                height: 28px;
+                position: absolute;
+                right: 10px;
+                top: 206px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(6)>p{
+               font-size: 13px;
+               font-family: yekan;
+                position: absolute;
+                right: 50px;
+                top: 200px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(7)>svg{
+                width: 28px;
+                height: 28px;
+                position: absolute;
+                right: 10px;
+                top: 247px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(7)>p{
+               font-size: 13px;
+               font-family: yekan;
+                position: absolute;
+                right: 50px;
+                top: 238px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(8)>svg{
+                width: 28px;
+                height: 28px;
+                position: absolute;
+                right: 10px;
+                top: 287px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(8)>p{
+               font-size: 13px;
+               font-family: yekan;
+                position: absolute;
+                right: 50px;
+                top: 279px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(9)>svg{
+                width: 28px;
+                height: 28px;
+                position: absolute;
+                right: 10px;
+                top: 326px;
+            }
+            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(9)>p{
+               font-size: 13px;
+               font-family: yekan;
+                position: absolute;
+                right: 50px;
+                top: 318px;
+            }
+            div.megaMenu>nav>div.wow{
+                width: 117px;
+                height: 40px;
+                display: inline-block;
+                position: absolute;
+                background-color: white;
+                right: 9.5%;
+            }
+            div.megaMenu>nav>div.wow>p{
+            font-size: 13px;
+            text-align: center;
+            margin-top: 8%;
+            transition: 0.5s;
+            font-family: yekan;
+            }
+            div.megaMenu>nav>div.wow:hover{
+                border-bottom: 1px solid red;
+            }
+            div.megaMenu>nav>div.wow:nth-child(3){
+                right: 17.2%;
+            }
+            div.megaMenu>nav>div.wow:nth-child(4){
+                right: 24.85%;
+            }
+            div.megaMenu>nav>div.wow:nth-child(5){
+                right: 32.57%;
+            }
+            div.megaMenu>nav>div.wow:nth-child(6){
+                right: 40.3%;
+            }
+            div.megaMenu>nav>div.wow:nth-child(7){
+                right: 48%;
+            }
+            

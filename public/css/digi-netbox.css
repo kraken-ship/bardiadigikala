@@ -1,0 +1,19 @@
+div.digi-netbox{
+width: 100%;
+height: 170px;
+}
+div.digi-netbox>div.digi-box{
+    width: 87%;
+    height: 170px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+div.digi-netbox>div.digi-box>a{
+    display: block;
+}
+div.digi-netbox>div.digi-box>a>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}

@@ -1,0 +1,267 @@
+div.best-selling{
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+div.best-selling>div.best-box{
+    width: 87%;
+    height: 400px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    right: 6.35%;
+    top: 10px;
+}
+div.best-selling>div.best-box>div.title{
+    width: 94%;
+    height: 57px;
+    position: absolute;
+    top: 5px;
+    right: 38px;
+}
+div.best-selling>div.best-box>div.title>img{
+    width: 283px;
+    height: 56px;
+    position: absolute;
+    right: 36%;
+    top: 0.5px;
+    
+}
+div.best-selling>div.best-box>div.title>a{
+    position: absolute;
+    left: 18px;
+    top: 17px;
+    font-size: 15px;
+    font-family: yekan;
+    color: aqua;
+}
+
+div.best-selling>div.best-box>div.content-box{
+    width: 24.5%;
+    height: 327px;
+    position: absolute;
+    right: 9px;
+    top: 17%;
+}
+div.best-selling>div.best-box>div.content-box>div.inside-content{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    transition: 300;
+    
+    
+}
+div.best-selling>div.best-box>div.content-box>div.inside-content:hover{
+    box-shadow:2px -1px 13px 6px lightgray ; 
+
+}
+div.best-selling>div.best-box>div.content-box>div.inside-content:nth-child(1){
+    border-bottom: 1px solid lightgray;
+}
+div.best-selling>div.best-box>div.content-box>div.inside-content:nth-child(2){
+    border-bottom: 1px solid lightgray;
+    top: 103px;
+}
+div.best-selling>div.best-box>div.content-box>div.inside-content:nth-child(3){
+    top: 205px;
+}
+div.best-selling>div.best-box>div.content-box>div.inside-content>a>img{
+    width: 86px;
+    height: 86px;
+    top: 9px;
+    position: absolute;
+    right: 5px;
+}
+div.best-selling>div.best-box>div.content-box>div.inside-content>a>span{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 97px;
+    font-size: 40px;
+    font-family: yekan;
+    color: aqua;
+    font-weight: bold;
+}
+div.best-selling>div.best-box>div.content-box>div.inside-content>a>h4{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    width: 200px;
+    right: 126px;
+    top: 27px;
+    font-family: yekan;
+}
+/* ///////////////////////////////////////////////// */
+div.best-selling>div.best-box>div.content-box1{
+    width: 24.5%;
+    height: 327px;
+    position: absolute;
+    right: 335px;
+    top: 17%;
+}
+div.best-selling>div.best-box>div.content-box1>div.inside-content{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    transition: 300;
+    
+    
+}
+div.best-selling>div.best-box>div.content-box1>div.inside-content:hover{
+    box-shadow:2px -1px 13px 6px lightgray ; 
+
+}
+div.best-selling>div.best-box>div.content-box1>div.inside-content:nth-child(1){
+    border-bottom: 1px solid lightgray;
+}
+div.best-selling>div.best-box>div.content-box1>div.inside-content:nth-child(2){
+    border-bottom: 1px solid lightgray;
+    top: 103px;
+}
+div.best-selling>div.best-box>div.content-box1>div.inside-content:nth-child(3){
+    top: 205px;
+}
+div.best-selling>div.best-box>div.content-box1>div.inside-content>a>img{
+    width: 86px;
+    height: 86px;
+    top: 9px;
+    position: absolute;
+    right: 5px;
+}
+div.best-selling>div.best-box>div.content-box1>div.inside-content>a>span{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 97px;
+    font-size: 40px;
+    font-family: yekan;
+    color: aqua;
+    font-weight: bold;
+}
+div.best-selling>div.best-box>div.content-box1>div.inside-content>a>h4{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    width: 200px;
+    right: 126px;
+    top: 27px;
+    font-family: yekan;
+}
+/* /////////////////////////////////////////////////////////// */
+div.best-selling>div.best-box>div.content-box2{
+    width: 24.5%;
+    height: 327px;
+    position: absolute;
+    right: 662px;
+    top: 17%;
+}
+div.best-selling>div.best-box>div.content-box2>div.inside-content{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    transition: 300;
+    
+    
+}
+div.best-selling>div.best-box>div.content-box2>div.inside-content:hover{
+    box-shadow:2px -1px 13px 6px lightgray ; 
+
+}
+div.best-selling>div.best-box>div.content-box2>div.inside-content:nth-child(1){
+    border-bottom: 1px solid lightgray;
+}
+div.best-selling>div.best-box>div.content-box2>div.inside-content:nth-child(2){
+    border-bottom: 1px solid lightgray;
+    top: 103px;
+}
+div.best-selling>div.best-box>div.content-box2>div.inside-content:nth-child(3){
+    top: 205px;
+}
+div.best-selling>div.best-box>div.content-box2>div.inside-content>a>img{
+    width: 86px;
+    height: 86px;
+    top: 9px;
+    position: absolute;
+    right: 5px;
+}
+div.best-selling>div.best-box>div.content-box2>div.inside-content>a>span{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 97px;
+    font-size: 40px;
+    font-family: yekan;
+    color: aqua;
+    font-weight: bold;
+}
+div.best-selling>div.best-box>div.content-box2>div.inside-content>a>h4{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    width: 200px;
+    right: 126px;
+    top: 27px;
+    font-family: yekan;
+}
+/* //////////////////////////////////////////////// */
+div.best-selling>div.best-box>div.content-box3{
+    width: 24.5%;
+    height: 327px;
+    position: absolute;
+    right: 990px;
+    top: 17%;
+}
+div.best-selling>div.best-box>div.content-box3>div.inside-content{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    transition: 300;
+    
+    
+}
+div.best-selling>div.best-box>div.content-box3>div.inside-content:hover{
+    box-shadow:2px -1px 13px 6px lightgray ; 
+
+}
+div.best-selling>div.best-box>div.content-box3>div.inside-content:nth-child(1){
+    border-bottom: 1px solid lightgray;
+}
+div.best-selling>div.best-box>div.content-box3>div.inside-content:nth-child(2){
+    border-bottom: 1px solid lightgray;
+    top: 103px;
+}
+div.best-selling>div.best-box>div.content-box3>div.inside-content:nth-child(3){
+    top: 205px;
+}
+div.best-selling>div.best-box>div.content-box3>div.inside-content>a>img{
+    width: 86px;
+    height: 86px;
+    top: 9px;
+    position: absolute;
+    right: 5px;
+}
+div.best-selling>div.best-box>div.content-box3>div.inside-content>a>span{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 97px;
+    font-size: 40px;
+    font-family: yekan;
+    color: aqua;
+    font-weight: bold;
+}
+div.best-selling>div.best-box>div.content-box3>div.inside-content>a>h4{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    width: 200px;
+    right: 126px;
+    top: 27px;
+    font-family: yekan;
+}

@@ -1,0 +1,97 @@
+div.digi-suggest{
+    width: 100%;
+    height: 400px;
+}
+div.digi-suggest>div.digi-p{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    margin-top: 13px;
+}
+div.digi-suggest>div.digi-p>h4{
+    font-weight: normal;
+    font-size: 25px;
+    font-family: yekan;
+    display: inline-block;
+    margin-top: 8px;
+}
+div.digi-suggest>div.digi-box{
+    width: 100%;
+    height: 317px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+div.digi-suggest>div.digi-box>div.under-box{
+    width: 1284px;
+    height: 305px;
+    display: inline-block;
+outline: 1px solid lightgray;
+outline-offset: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box{
+    width: 182px;
+    height: 150px;
+    display: inline-block;
+    border-right: 1px solid lightgray;
+margin-left: -4px;
+margin-top: 1px;
+border-bottom: 1px solid lightgray;
+transition: 300ms;
+box-sizing: border-box;
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box:hover{
+    box-shadow:2px -1px 13px 6px lightgray ; 
+
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box>a{
+    text-decoration: none;
+    display: block;
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box>a>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align: top;
+    
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box>a>h4{
+    font-family: yekan;
+    font-size: 13px;
+   font-weight: normal; 
+   margin-top: 7px;
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box-1{
+    width: 182px;
+    height: 150px;
+    display: inline-block;
+    border-right: 1px solid lightgray;
+    margin-top: 1px;
+    margin-left: -4px;
+transition: 300ms;
+box-sizing: border-box;
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box-1:hover{
+
+   box-shadow:2px -1px 13px 6px lightgray ; 
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box-1>a>h4{
+    font-family: yekan;
+    font-size: 13px;
+   font-weight: normal; 
+   margin-top: 7px;
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box-1>a>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: 5px;
+    
+}
+div.digi-suggest>div.digi-box>div.under-box>div.mini-box-1>a{
+    text-decoration: none;
+    display: block;
+}
