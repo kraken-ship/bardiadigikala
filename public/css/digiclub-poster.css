@@ -35,7 +35,8 @@ div.digiclub-poster>div.club-poster>div.club-box{
     display: inline-block;
     position: absolute;
     top: 11%;
-    right: 486px;
+    left: 43%;
+    /* right: 486px; */
     border-radius: 0px 8px 8px 0px;
 }
 div.digiclub-poster>div.club-poster>div.club-box>a>img{
@@ -73,7 +74,7 @@ div.digiclub-poster>div.club-poster>div.club-box1{
     display: inline-block;
     position: absolute;
     top: 11%;
-    right: 761px;
+    left: 22%;
 }
 div.digiclub-poster>div.club-poster>div.club-box1>a>img{
     width: 168px;
@@ -110,7 +111,7 @@ div.digiclub-poster>div.club-poster>div.club-box2{
     display: inline-block;
     position: absolute;
     top: 11%;
-    right: 1037px;
+    left: 1%;
     border-radius: 8px 0px 0px 8px;
 }
 div.digiclub-poster>div.club-poster>div.club-box2>a>img{

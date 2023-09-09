@@ -1,0 +1,234 @@
+
+div.whatsapp{
+position: fixed;
+left: 50px;
+bottom: 50px;
+width: 50px;
+height: 50px;
+background-color: crimson;
+border-radius: 50%;
+z-index: 2;
+}
+div.whatsapp>label[for="close"]>div.close{
+position: absolute;
+    /* display: inline-block; */
+    right: 30%;
+    top: 20%;
+    cursor: pointer;
+}
+div.whatsapp>label[for="close"]>div.close>svg{
+
+width: 22px;
+height: 26px;
+fill: white;
+}
+div.whatsapp>label[for="show"]>div.show{
+    position: absolute;
+        right: 30%;
+        top: 20%;
+        cursor: pointer;
+    }
+div.whatsapp>label[for="show"]>div.show>svg{
+
+    width: 22px;
+    height: 26px;
+    fill: white;
+    }
+    label[for="close"] {
+        display: none;
+    }
+    #show,#close{
+        display: none;
+    }
+    #show:checked ~ label[for="close"] {
+        display: block;
+    }
+    #show:checked ~ label[for="show"] {
+        display: none;
+      }
+      #show:checked ~ div.content {
+        display: block;
+    }
+    ::-webkit-scrollbar{
+        width:5px;
+        background-color:white;
+        border-radius: 5px;
+        
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: lightgray;
+        border-radius: 5px;
+    
+    }
+    div.whatsapp>div.content{
+    width: 360px;
+    height: 520px;
+    background-color: white;
+    border: 1px solid crimson;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 120%;
+    left: 0;
+    display: none;
+    overflow: hidden;
+    z-index: 2;
+}
+div.whatsapp>div.content>div.title{
+
+width: 100%;
+height: 12%;
+background-color: #e6123ce3;
+
+text-align: right;
+border-radius: 16px 16px 0 0;
+display: flex;
+line-height: 40px;
+justify-content: space-between;
+padding: 0 20px;
+box-sizing: border-box;
+}
+div.whatsapp>div.content>div.title>p{
+    vertical-align: middle;
+    font-family: yekan;
+    font-size: 20px;
+    color: #fff;
+    line-height: 59px;
+}
+div.whatsapp>div.content>div.main{
+height: 90%;
+padding: 25px 10px;
+box-sizing: border-box;
+overflow: auto;
+}
+div.whatsapp>div.content>div.main>h1{
+    font-family: yekan;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 40px;
+}
+div.whatsapp>div.content>div.main>p{
+font-family: yekan;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+div.whatsapp>div.content>div.main>ul{
+margin-top: 30px;
+width: 100%;
+height: auto;
+background-color: #fff;
+list-style-type: none;
+}
+div.whatsapp>div.content>div.main>ul>li{
+width: 100%;
+height: auto;
+box-sizing: border-box;
+padding: 10px;
+border: 1px solid #e0e0e6;
+border-radius: 8px;
+margin-bottom: 5px;
+font-family: yekan;
+font-size: 15px;
+font-weight: 600;
+text-align: right;
+}
+div.whatsapp>div.content>div.main>ul>li>div{
+width: 100%;
+height: 100%;
+display: inline-block;
+vertical-align: middle;
+line-height: 30px;
+position: relative;
+}
+div.whatsapp>div.content>div.main>ul>li>div>p{
+    font-family: yekan;
+    font-size: 15px;
+    font-weight: 600;
+display: inline-block;
+    width: 90%;
+}
+div.whatsapp>div.content>div.main>ul>li>div>label{
+position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+div.whatsapp>div.content>div.main>ul>li>div>label>i{
+font-weight: bolder;
+    font-size: 13px;
+    cursor: pointer;
+}
+div.whatsapp>div.content>div.main>ul>li>div>div.content1{
+width: 100%;
+height: auto;
+border-top: 1px solid #e0e0e6;
+display: none;
+padding-top: 12px;
+margin-top: 12px;
+box-sizing: border-box;
+}
+div.whatsapp>div.content>div.main>ul>li>div>div.content1>p{
+font-family: yekan;
+font-size: 15px;
+line-height: 30px;
+font-weight: 500;
+}
+label[for="close-all"] {
+    display: none;
+  }
+  #close-all , #open{
+    display: none;
+  }
+  #open:checked ~ label[for="open"] {
+    display: none;
+  }
+  #open:checked ~ div.content1 {
+    display: block;
+  }
+  #open:checked ~ label[for="close-all"] {
+    display: block;
+  }
+  #close-all:checked ~ div.content1 {
+    display: none;
+  }
+  /* //////////////////////////////////////// */
+  label[for="close-all1"] {
+    display: none;
+  }
+  #close-all1 , #open1{
+    display: none;
+  }
+  #open1:checked ~ label[for="open1"] {
+    display: none;
+  }
+  #open1:checked ~ div.content1 {
+    display: block;
+  }
+  #open1:checked ~ label[for="close-all1"] {
+    display: block;
+  }
+  #close-all1:checked ~ div.content1 {
+    display: none;
+  }
+  /* /////////////////////////////// */
+  label[for="close-all2"] {
+    display: none;
+  }
+  #close-all2 , #open2{
+    display: none;
+  }
+  #open2:checked ~ label[for="open2"] {
+    display: none;
+  }
+  #open2:checked ~ div.content1 {
+    display: block;
+  }
+  #open2:checked ~ label[for="close-all2"] {
+    display: block;
+  }
+  #close-all2:checked ~ div.content1 {
+    display: none;
+  }
+  

@@ -16,7 +16,8 @@ div.digi-readable>div.title>a:nth-child(1){
     color: black;
     font-weight: normal;
     top: 10px;
-    right: 113px;
+    right: 7%;
+
 }
 div.digi-readable>div.title>a:nth-child(2){
     position: absolute;
@@ -47,7 +48,7 @@ div.digi-readable>div.content>div.sub-content{
     border: 1px solid lightgrey;
     border-radius: 15px;
     top: 7px;
-    right: 85px;
+    right: 7%;
 }
 div.digi-readable>div.content>div.sub-content>a{
     display: block;
@@ -66,11 +67,11 @@ div.digi-readable>div.content>div.sub-content>a>h4{
     font-weight: normal;
 }
 div.digi-readable>div.content>div.sub-content:nth-child(2){
-    right: 418px;
+    right: 30%;
 }
 div.digi-readable>div.content>div.sub-content:nth-child(3){
-    right: 754px;
+    right: 53%;
 }
 div.digi-readable>div.content>div.sub-content:nth-child(4){
-    right: 1089px;
+    right: 76%;
 }

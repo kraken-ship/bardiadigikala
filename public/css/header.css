@@ -159,432 +159,239 @@ header>div.header-bottom>div.bTop>div.login>a:nth-child(2)>span{
     position: absolute;
     left: 43px;
     color: lightgrey;
-}div.megaMenu{
+}div.bBottom{
     width: 100%;
     height: 40px;
     background-color: white;
-    padding-right: 30px;
+    padding-right: 2px;
     box-sizing: border-box;
 }
-div.megaMenu>nav{
-    width: inherit;
-    height: inherit;
+div.bBottom>nav{
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-div.megaMenu>nav>div[data-parent]{
-    width: fit-content;
-    height: inherit;
-    display: inline-block;
-    background-color: white;
-    margin-right: -24px;
+div.bBottom>nav>div.menu{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 59%;
+height: inherit;
+vertical-align: top;
 }
-div.megaMenu>nav>div[data-parent]>a{
-    display: block;
-    width: auto;
-    padding: 0 10px;
-    height: inherit;
-    line-height: 40px;
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 13px;
-    font-weight: bold;
-
+div.bBottom>nav>div.menu>div.submenu{
+height: 40px;
+flex-grow: 1;
+position: relative;
+transition: 300ms ease-in-out;
 }
-div.megaMenu>nav>div[data-parent]>a>svg{
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    right: 10px;
-    top: 137px;
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1)>a{
+font-size: 14px;
+font-weight: bold;
 }
-div.megaMenu>nav>div[data-parent]>a>p{
-    display: block;
-    width: auto;
-    padding: 0 10px;
-    height: inherit;
-    line-height: 40px;
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-    font-weight: bold;
-    font-family: 'yekan';
-    margin-right: 15px;
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1)>a>svg{
+    scale: 0.9;
+    fill: black;
+}
+div.bBottom>nav>div.menu>div.submenu:hover{
+    border-bottom: 1px solid crimson;
 }
 
-div.megaMenu>nav>div[data-parent]>a:hover{
-    background-color: #6b6b6b;
-}
-div.megaMenu>nav>div>div.subMenu{
-    width: calc(70vw - 60px);
-    height: 50vh;
-    box-shadow: 0px 2px 5px #2b2b2b;
-    display: none;
-    position: absolute;
-    background-color:#6b6b6b ;
-    border-radius: 0px 0px 5px 5px;
-}
-div.megaMenu>nav>div[data-parent]:hover>div.subMenu{
-    display: block;
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div{
-width: 18%;
-height: 100%;
-overflow: auto;
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a{
-    display: block;
-    width: 100%;
-    height: 40px;
-    line-height:40px;
-    text-decoration: none;
-    text-align: center;
-    background-color: #ababab;
-    color: whitesmoke;
-    font-size: 13px;
-}
-::-webkit-scrollbar{
-    width:5px;
-    background-color:white;
-    border-radius: 5px;
-    
-}
-::-webkit-scrollbar-thumb{
-    background-color: lightgray;
-    border-radius: 5px;
-
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero{
-    width: 90%;
-    height: 100%;
-    background-color: white;
-    position: absolute;
-    left: -82px;
-    top: 0;
-    display: block;
-    border-radius: 0px 0px 0px 5px;
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>svg{
-    width: 28px;
-    height: 28px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>p{
-   font-size: 13px;
-   font-family: yekan;
-    position: absolute;
-    right: 50px;
-    top: 1px;
-}
-
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:hover{
-    background-color: #FFFFFF;
-    color: red;
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:hover>div.subzero{
-    display: block;
-    
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div{
-    width:24%;
-    height: 100%;
-    display: inline-block;
-    margin-right: 4px;
-    background-color: white;
-    box-sizing: border-box;
-    cursor:default;
-   
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>p{
-    position: absolute;
-    color: aqua;
-    font-size: 12px;
-    font-family: yekan;
-    cursor: pointer;
-    word-spacing: 1px;
-}
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>h3{
-position: absolute;
-top: 48px;
+div.bBottom>nav>div.menu>div.submenu>a{
+display: flex;
+align-items: center;
+width: 100%;
+color: #2b2b2b !important;
+height: inherit;
+line-height: 20px;
+text-decoration: none;
+font-family: yekan;
 font-size: 12px;
-font-color: bla;
-word-spacing: 1px;
-color: black;
-font-family: 'yekan';
-transition: 300ms;
-cursor: pointer;
 }
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>h3:hover{
-    color: red;
+div.bBottom>nav>div.menu>div.submenu>a>i{
+margin-left: 8px;
+font-size: 17px;
 }
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span{
+div.bBottom>nav>div.menu>div.submenu>a>svg{
+width: 23px;
+    height: 23px;
+    fill: darkgray;
+    scale: 0.8;
+    margin-left: 2px;
+font-size: 17px;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1)>div.inside-menu{
+width: calc(90vw - 60px);
+    height: 50vh;
+    background-color: white;
     position: absolute;
-    color: lightgrey;
-    font-size: 12px;
+    top: 100%;
+    right: 0;
+    display: none;
+    z-index: 100;
+    border: 1px solid gainsboro;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 0px 0px inset;
+    border-radius: 0 0 0 5px;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu{
+    display: block;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div{
+width: 15%;
+    height: 100%;
+    overflow: auto;
+    background-color: #f5f5f5;
+    direction: ltr;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.name{
+direction: rtl;
+width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
     font-family: yekan;
-    cursor: pointer;
-    word-spacing: 1px;
-    top: 100px;
-    right: 10px;
+    font-size: 11px;
+    color: #3f4064;
+    display: block;
 }
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(4){
-top: 130px;
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.name>a{
+width: 100%;
+box-sizing: border-box;
+height: 40px;
+line-height: 40px;
+text-decoration: none;
+font-family: yekan;
+font-size: 11px;
+color: #3f4064;
+display: block;
 }
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(5){
-    top: 160px;
- }
- div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(6){
-    top: 190px;
- }    
- div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(7){
-    top: 220px;
- } 
- div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(8){
-    top: 250px;
- } 
- div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(9){
-    top: 280px;
- } 
- div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div>span:nth-child(10){
-    top: 310px;
- } 
- 
- div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span{
-    position: absolute;
-    color: lightgrey;
-    font-size: 12px;
-    font-family: yekan;
-    cursor: pointer;
-    word-spacing: 1px;
-    top: 100px;
-    right: 237px;
+
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.name:hover>a{
+color: crimson;
+    background-color: #fff;
 }
-div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(4){
-    top: 130px;
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.name:hover>a>svg{
+    fill: crimson;
     }
-    div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(5){
-        top: 160px;
-     }
-     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(6){
-        top: 190px;
-     }    
-     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(7){
-        top: 220px;
-     } 
-     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(8){
-        top: 250px;
-     } 
-     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(9){
-        top: 280px;
-     } 
-     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(2)>span:nth-child(10){
-        top: 310px;
-     } 
-     div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span{
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content{
+    direction: rtl;
+width: 85%;
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    display: none;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content{
+    display: block;
+    background-color: white;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content>div.title{
+width: 100%;
+height: 20%;
+padding-right: 9px;
+padding-top: 15px;
+box-sizing: border-box;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content>div.title>a{
+font-family: yekan;
+font-size: 14px;
+font-size: bold;
+color: #008eb2;
+text-decoration: none;
+margin-left: 15px;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content>div.sub-content{
+    width: 100%;
+    height: 90%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content>div.sub-content>div.inside-sub{
+width: auto;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    margin-left: 40px;
+    vertical-align: top;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content>div.sub-content>div.inside-sub>a{
+font-family: yekan;
+font-size: 16px;
+font-size: bold;
+color: #080a38;
+text-decoration: none;
+display: block;
+line-height: 40px;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content>div.sub-content>div.inside-sub>a>i{
+color: crimson;
+font-size: 14px;
+font-weight: bold;
+margin-left: 10px;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content>div.sub-content>div.inside-sub>ul>li{
+    font-family: yekan;
+    font-size: 13px;
+    font-size: bold;
+    color: #767790;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.content>div.sub-content>div.inside-sub>ul>li:hover{
+    color: crimson;
+    cursor: pointer;
+}
+div.bBottom>nav>div.menu>div.submenu:nth-of-type(1):hover>div.inside-menu>div>div.sort>div.name>a>svg{
+    
+    width: 23px;
+    font-size: bold;
+    height: 23px;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 5px;
+    scale: 0.8;
+    fill: darkgray;
+    }
+    div.bBottom>nav>div.location{
+        width: 15%;
+        display: inline-block;
+        margin: 8px 3px 8px 0;
         position: absolute;
-        color: lightgrey;
-        font-size: 12px;
-        font-family: yekan;
-        cursor: pointer;
-        word-spacing: 1px;
-        top: 100px;
-        right: 465px;
+        left: -2%;
     }
-    div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(4){
-        top: 130px;
-        }
-        div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(5){
-            top: 160px;
-         }
-         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(6){
-            top: 190px;
-         }    
-         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(7){
-            top: 220px;
-         } 
-         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(8){
-            top: 250px;
-         } 
-         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(9){
-            top: 280px;
-         } 
-         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(3)>span:nth-child(10){
-            top: 310px;
-         } 
-         div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span{
-            position: absolute;
-            color: lightgrey;
-            font-size: 12px;
-            font-family: yekan;
-            cursor: pointer;
-            word-spacing: 1px;
-            top: 100px;
-            right: 692px;
-        }
-        div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(4){
-            top: 130px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(5){
-                top: 160px;
-             }
-             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(6){
-                top: 190px;
-             }    
-             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(7){
-                top: 220px;
-             } 
-             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(8){
-                top: 250px;
-             } 
-             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(9){
-                top: 280px;
-             } 
-             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div:nth-child(4)>span:nth-child(10){
-                top: 310px;
-             } 
-             div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(2)>svg{
-                width: 28px;
-                height: 28px;
-                position: absolute;
-                right: 10px;
-                top: 46px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(2)>p{
-               font-size: 13px;
-               font-family: yekan;
-                position: absolute;
-                right: 50px;
-                top: 37px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(3)>svg{
-                width: 28px;
-                height: 28px;
-                position: absolute;
-                right: 10px;
-                top: 87px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(3)>p{
-               font-size: 13px;
-               font-family: yekan;
-                position: absolute;
-                right: 50px;
-                top: 78px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(4)>svg{
-                width: 28px;
-                height: 28px;
-                position: absolute;
-                right: 10px;
-                top: 126px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(4)>p{
-               font-size: 13px;
-               font-family: yekan;
-                position: absolute;
-                right: 50px;
-                top: 118px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(5)>svg{
-                width: 28px;
-                height: 28px;
-                position: absolute;
-                right: 10px;
-                top: 167px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(5)>p{
-               font-size: 13px;
-               font-family: yekan;
-                position: absolute;
-                right: 50px;
-                top: 158px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(6)>svg{
-                width: 28px;
-                height: 28px;
-                position: absolute;
-                right: 10px;
-                top: 206px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(6)>p{
-               font-size: 13px;
-               font-family: yekan;
-                position: absolute;
-                right: 50px;
-                top: 200px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(7)>svg{
-                width: 28px;
-                height: 28px;
-                position: absolute;
-                right: 10px;
-                top: 247px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(7)>p{
-               font-size: 13px;
-               font-family: yekan;
-                position: absolute;
-                right: 50px;
-                top: 238px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(8)>svg{
-                width: 28px;
-                height: 28px;
-                position: absolute;
-                right: 10px;
-                top: 287px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(8)>p{
-               font-size: 13px;
-               font-family: yekan;
-                position: absolute;
-                right: 50px;
-                top: 279px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(9)>svg{
-                width: 28px;
-                height: 28px;
-                position: absolute;
-                right: 10px;
-                top: 326px;
-            }
-            div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:nth-child(9)>p{
-               font-size: 13px;
-               font-family: yekan;
-                position: absolute;
-                right: 50px;
-                top: 318px;
-            }
-            div.megaMenu>nav>div.wow{
-                width: 117px;
-                height: 40px;
-                display: inline-block;
-                position: absolute;
-                background-color: white;
-                right: 9.5%;
-            }
-            div.megaMenu>nav>div.wow>p{
-            font-size: 13px;
-            text-align: center;
-            margin-top: 8%;
-            transition: 0.5s;
-            font-family: yekan;
-            }
-            div.megaMenu>nav>div.wow:hover{
-                border-bottom: 1px solid red;
-            }
-            div.megaMenu>nav>div.wow:nth-child(3){
-                right: 17.2%;
-            }
-            div.megaMenu>nav>div.wow:nth-child(4){
-                right: 24.85%;
-            }
-            div.megaMenu>nav>div.wow:nth-child(5){
-                right: 32.57%;
-            }
-            div.megaMenu>nav>div.wow:nth-child(6){
-                right: 40.3%;
-            }
-            div.megaMenu>nav>div.wow:nth-child(7){
-                right: 48%;
-            }
-            
+    div.bBottom>nav>div.location>label{
+    font-family: yekan;
+    font-size: 12px;
+    color: #3f4064;
+    cursor: pointer;
+    text-align: center;
+    }
+    div.bBottom>nav>div.location>label>i{
+    padding-left: 10px;
+    font-size: 17px;
+    }
+    div.bBottom>nav>div.location>p{
+    font-family: 'yekan';
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    width: 78%;
+    height: 252%;
+    text-align: center;
+    top: 172%;
+    left: 19%;
+    color: white;
+    vertical-align: middle;
+    line-height: 47px;
+    background-color: #23254e;
+    border-radius: 9px;
+    display: none;
+    }
+    div.bBottom>nav>div.location:hover>p{
+        display: block;
+    }

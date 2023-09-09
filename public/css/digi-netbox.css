@@ -1,10 +1,10 @@
 div.digi-netbox{
-width: 100%;
-height: 170px;
+    width: 100%;
+    height: 210px;
 }
 div.digi-netbox>div.digi-box{
     width: 87%;
-    height: 170px;
+    height: 210px;
     box-sizing: border-box;
     border-radius: 10px;
     margin: 0 auto;
@@ -14,6 +14,6 @@ div.digi-netbox>div.digi-box>a{
 }
 div.digi-netbox>div.digi-box>a>img{
     width: 100%;
-    height: 100%;
+    height: 210px;
     border-radius: 15px;
 }

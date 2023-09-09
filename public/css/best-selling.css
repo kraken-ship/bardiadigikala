@@ -11,7 +11,7 @@ div.best-selling>div.best-box{
     background-color: white;
     border-radius: 15px;
     border: 1px solid lightgray;
-    right: 6.35%;
+    right: 6.50%;
     top: 10px;
 }
 div.best-selling>div.best-box>div.title{
@@ -19,16 +19,17 @@ div.best-selling>div.best-box>div.title{
     height: 57px;
     position: absolute;
     top: 5px;
-    right: 38px;
+    right: 3%;
 }
 div.best-selling>div.best-box>div.title>img{
     width: 283px;
     height: 56px;
     position: absolute;
-    right: 36%;
+    right: calc(100% - 50% - 10%);
     top: 0.5px;
-    
 }
+    
+
 div.best-selling>div.best-box>div.title>a{
     position: absolute;
     left: 18px;
@@ -38,14 +39,35 @@ div.best-selling>div.best-box>div.title>a{
     color: aqua;
 }
 
-div.best-selling>div.best-box>div.content-box{
-    width: 24.5%;
-    height: 327px;
-    position: absolute;
-    right: 9px;
-    top: 17%;
+div.best-selling>div.best-box>div.slider{
+    width: 100%;
+    height: 298px;
+    margin-top: 66px;
+    padding: 0 8px;
+    box-sizing: border-box;
 }
-div.best-selling>div.best-box>div.content-box>div.inside-content{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    height: 100%;
+    width: 100%;
+    /* right: -11px; */
+    top: 27px;
+    font-family: yekan;
+}
+
+
+
+
+
+
+
+
+
+
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1>div.inside-content{
     width: 100%;
     height: 100px;
     position: absolute;
@@ -53,28 +75,28 @@ div.best-selling>div.best-box>div.content-box>div.inside-content{
     
     
 }
-div.best-selling>div.best-box>div.content-box>div.inside-content:hover{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1>div.inside-content:hover{
     box-shadow:2px -1px 13px 6px lightgray ; 
 
 }
-div.best-selling>div.best-box>div.content-box>div.inside-content:nth-child(1){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1>div.inside-content:nth-child(1){
     border-bottom: 1px solid lightgray;
 }
-div.best-selling>div.best-box>div.content-box>div.inside-content:nth-child(2){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1>div.inside-content:nth-child(2){
     border-bottom: 1px solid lightgray;
     top: 103px;
 }
-div.best-selling>div.best-box>div.content-box>div.inside-content:nth-child(3){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1>div.inside-content:nth-child(3){
     top: 205px;
 }
-div.best-selling>div.best-box>div.content-box>div.inside-content>a>img{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1>div.inside-content>a>img{
     width: 86px;
     height: 86px;
     top: 9px;
     position: absolute;
     right: 5px;
 }
-div.best-selling>div.best-box>div.content-box>div.inside-content>a>span{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1>div.inside-content>a>span{
     position: absolute;
     display: inline-block;
     top: 20px;
@@ -84,7 +106,7 @@ div.best-selling>div.best-box>div.content-box>div.inside-content>a>span{
     color: aqua;
     font-weight: bold;
 }
-div.best-selling>div.best-box>div.content-box>div.inside-content>a>h4{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box1>div.inside-content>a>h4{
     display: inline-block;
     font-size: 13px;
     position: absolute;
@@ -95,14 +117,28 @@ div.best-selling>div.best-box>div.content-box>div.inside-content>a>h4{
     font-family: yekan;
 }
 /* ///////////////////////////////////////////////// */
-div.best-selling>div.best-box>div.content-box1{
-    width: 24.5%;
-    height: 327px;
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2{
+    display: inline-block;
+    font-size: 13px;
     position: absolute;
-    right: 335px;
-    top: 17%;
+    font-weight: 200;
+    height: 100%;
+    width: 100%;
+    /* right: -11px; */
+    top: 27px;
+    font-family: yekan;
 }
-div.best-selling>div.best-box>div.content-box1>div.inside-content{
+
+
+
+
+
+
+
+
+
+
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2>div.inside-content{
     width: 100%;
     height: 100px;
     position: absolute;
@@ -110,28 +146,28 @@ div.best-selling>div.best-box>div.content-box1>div.inside-content{
     
     
 }
-div.best-selling>div.best-box>div.content-box1>div.inside-content:hover{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2>div.inside-content:hover{
     box-shadow:2px -1px 13px 6px lightgray ; 
 
 }
-div.best-selling>div.best-box>div.content-box1>div.inside-content:nth-child(1){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2>div.inside-content:nth-child(1){
     border-bottom: 1px solid lightgray;
 }
-div.best-selling>div.best-box>div.content-box1>div.inside-content:nth-child(2){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2>div.inside-content:nth-child(2){
     border-bottom: 1px solid lightgray;
     top: 103px;
 }
-div.best-selling>div.best-box>div.content-box1>div.inside-content:nth-child(3){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2>div.inside-content:nth-child(3){
     top: 205px;
 }
-div.best-selling>div.best-box>div.content-box1>div.inside-content>a>img{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2>div.inside-content>a>img{
     width: 86px;
     height: 86px;
     top: 9px;
     position: absolute;
     right: 5px;
 }
-div.best-selling>div.best-box>div.content-box1>div.inside-content>a>span{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2>div.inside-content>a>span{
     position: absolute;
     display: inline-block;
     top: 20px;
@@ -141,7 +177,7 @@ div.best-selling>div.best-box>div.content-box1>div.inside-content>a>span{
     color: aqua;
     font-weight: bold;
 }
-div.best-selling>div.best-box>div.content-box1>div.inside-content>a>h4{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box2>div.inside-content>a>h4{
     display: inline-block;
     font-size: 13px;
     position: absolute;
@@ -152,14 +188,28 @@ div.best-selling>div.best-box>div.content-box1>div.inside-content>a>h4{
     font-family: yekan;
 }
 /* /////////////////////////////////////////////////////////// */
-div.best-selling>div.best-box>div.content-box2{
-    width: 24.5%;
-    height: 327px;
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3{
+    display: inline-block;
+    font-size: 13px;
     position: absolute;
-    right: 662px;
-    top: 17%;
+    font-weight: 200;
+    height: 100%;
+    width: 100%;
+    /* right: -11px; */
+    top: 27px;
+    font-family: yekan;
 }
-div.best-selling>div.best-box>div.content-box2>div.inside-content{
+
+
+
+
+
+
+
+
+
+
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3>div.inside-content{
     width: 100%;
     height: 100px;
     position: absolute;
@@ -167,28 +217,28 @@ div.best-selling>div.best-box>div.content-box2>div.inside-content{
     
     
 }
-div.best-selling>div.best-box>div.content-box2>div.inside-content:hover{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3>div.inside-content:hover{
     box-shadow:2px -1px 13px 6px lightgray ; 
 
 }
-div.best-selling>div.best-box>div.content-box2>div.inside-content:nth-child(1){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3>div.inside-content:nth-child(1){
     border-bottom: 1px solid lightgray;
 }
-div.best-selling>div.best-box>div.content-box2>div.inside-content:nth-child(2){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3>div.inside-content:nth-child(2){
     border-bottom: 1px solid lightgray;
     top: 103px;
 }
-div.best-selling>div.best-box>div.content-box2>div.inside-content:nth-child(3){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3>div.inside-content:nth-child(3){
     top: 205px;
 }
-div.best-selling>div.best-box>div.content-box2>div.inside-content>a>img{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3>div.inside-content>a>img{
     width: 86px;
     height: 86px;
     top: 9px;
     position: absolute;
     right: 5px;
 }
-div.best-selling>div.best-box>div.content-box2>div.inside-content>a>span{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3>div.inside-content>a>span{
     position: absolute;
     display: inline-block;
     top: 20px;
@@ -198,7 +248,7 @@ div.best-selling>div.best-box>div.content-box2>div.inside-content>a>span{
     color: aqua;
     font-weight: bold;
 }
-div.best-selling>div.best-box>div.content-box2>div.inside-content>a>h4{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box3>div.inside-content>a>h4{
     display: inline-block;
     font-size: 13px;
     position: absolute;
@@ -209,14 +259,28 @@ div.best-selling>div.best-box>div.content-box2>div.inside-content>a>h4{
     font-family: yekan;
 }
 /* //////////////////////////////////////////////// */
-div.best-selling>div.best-box>div.content-box3{
-    width: 24.5%;
-    height: 327px;
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4{
+    display: inline-block;
+    font-size: 13px;
     position: absolute;
-    right: 990px;
-    top: 17%;
+    font-weight: 200;
+    height: 100%;
+    width: 100%;
+    /* right: -11px; */
+    top: 27px;
+    font-family: yekan;
 }
-div.best-selling>div.best-box>div.content-box3>div.inside-content{
+
+
+
+
+
+
+
+
+
+
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4>div.inside-content{
     width: 100%;
     height: 100px;
     position: absolute;
@@ -224,28 +288,28 @@ div.best-selling>div.best-box>div.content-box3>div.inside-content{
     
     
 }
-div.best-selling>div.best-box>div.content-box3>div.inside-content:hover{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4>div.inside-content:hover{
     box-shadow:2px -1px 13px 6px lightgray ; 
 
 }
-div.best-selling>div.best-box>div.content-box3>div.inside-content:nth-child(1){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4>div.inside-content:nth-child(1){
     border-bottom: 1px solid lightgray;
 }
-div.best-selling>div.best-box>div.content-box3>div.inside-content:nth-child(2){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4>div.inside-content:nth-child(2){
     border-bottom: 1px solid lightgray;
     top: 103px;
 }
-div.best-selling>div.best-box>div.content-box3>div.inside-content:nth-child(3){
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4>div.inside-content:nth-child(3){
     top: 205px;
 }
-div.best-selling>div.best-box>div.content-box3>div.inside-content>a>img{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4>div.inside-content>a>img{
     width: 86px;
     height: 86px;
     top: 9px;
     position: absolute;
     right: 5px;
 }
-div.best-selling>div.best-box>div.content-box3>div.inside-content>a>span{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4>div.inside-content>a>span{
     position: absolute;
     display: inline-block;
     top: 20px;
@@ -255,7 +319,149 @@ div.best-selling>div.best-box>div.content-box3>div.inside-content>a>span{
     color: aqua;
     font-weight: bold;
 }
-div.best-selling>div.best-box>div.content-box3>div.inside-content>a>h4{
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box4>div.inside-content>a>h4{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    width: 200px;
+    right: 126px;
+    top: 27px;
+    font-family: yekan;
+}
+/* /////////////////////////////////////////// */
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    height: 100%;
+    width: 100%;
+    /* right: -11px; */
+    top: 27px;
+    font-family: yekan;
+}
+
+
+
+
+
+
+
+
+
+
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5>div.inside-content{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    transition: 300;
+    
+    
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5>div.inside-content:hover{
+    box-shadow:2px -1px 13px 6px lightgray ; 
+
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5>div.inside-content:nth-child(1){
+    border-bottom: 1px solid lightgray;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5>div.inside-content:nth-child(2){
+    border-bottom: 1px solid lightgray;
+    top: 103px;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5>div.inside-content:nth-child(3){
+    top: 205px;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5>div.inside-content>a>img{
+    width: 86px;
+    height: 86px;
+    top: 9px;
+    position: absolute;
+    right: 5px;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5>div.inside-content>a>span{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 97px;
+    font-size: 40px;
+    font-family: yekan;
+    color: aqua;
+    font-weight: bold;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box5>div.inside-content>a>h4{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    width: 200px;
+    right: 126px;
+    top: 27px;
+    font-family: yekan;
+}
+/* ///////////////////////////////////////////// */
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6{
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    font-weight: 200;
+    height: 100%;
+    width: 100%;
+    /* right: -11px; */
+    top: 27px;
+    font-family: yekan;
+}
+
+
+
+
+
+
+
+
+
+
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6>div.inside-content{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    transition: 300;
+    
+    
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6>div.inside-content:hover{
+    box-shadow:2px -1px 13px 6px lightgray ; 
+
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6>div.inside-content:nth-child(1){
+    border-bottom: 1px solid lightgray;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6>div.inside-content:nth-child(2){
+    border-bottom: 1px solid lightgray;
+    top: 103px;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6>div.inside-content:nth-child(3){
+    top: 205px;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6>div.inside-content>a>img{
+    width: 86px;
+    height: 86px;
+    top: 9px;
+    position: absolute;
+    right: 5px;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6>div.inside-content>a>span{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 97px;
+    font-size: 40px;
+    font-family: yekan;
+    color: aqua;
+    font-weight: bold;
+}
+div.best-selling>div.best-box>div.slider div.swiper-slide>div.content-box6>div.inside-content>a>h4{
     display: inline-block;
     font-size: 13px;
     position: absolute;

@@ -15,7 +15,7 @@ margin-top: 20px;
 
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid1{
-    width: 320px;
+    width: 25%;
     height: 419px;
     display: inline-block;
     box-sizing: border-box;
@@ -44,7 +44,7 @@ div.digi-grid1>div.digi-insideGrid>div.sub-grid1>div.t-sg1>h4{
 div.digi-grid1>div.digi-insideGrid>div.sub-grid1>div.pro-sg1{
     width: 319px;
     height: 300px;
-    margin-top: 12px;
+    margin: 0 auto;
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid1>div.pro-sg1>div.pro-img{
     width: 315px;
@@ -81,12 +81,12 @@ div.digi-grid1>div.digi-insideGrid>div.sub-grid1>div.pro-sg1>div.pro-img>img:nth
 
 
 div.digi-grid1>div.digi-insideGrid>div.sub-grid2{
-    width: 320px;
+    width: 25%;
     height: 419px;
     display: inline-block;
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid2{
-    width: 320px;
+    width: 25%;
     height: 419px;
     display: inline-block;
     box-sizing: border-box;
@@ -116,7 +116,8 @@ div.digi-grid1>div.digi-insideGrid>div.sub-grid2>div.t-sg2>h4{
 div.digi-grid1>div.digi-insideGrid>div.sub-grid2>div.pro-sg2{
     width: 319px;
     height: 300px;
-    margin-top: 12px;
+    margin: 0 auto;
+
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid2>div.pro-sg2>div.pro-img{
     width: 315px;
@@ -154,17 +155,17 @@ div.digi-grid1>div.digi-insideGrid>div.sub-grid2>div.pro-sg2>div.pro-img>img:nth
 
 
 div.digi-grid1>div.digi-insideGrid>div.sub-grid3{
-    width: 320px;
+    width: 25%;
     height: 419px;
     display: inline-block;
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid3{
-    width: 320px;
+    width: 25%;
     height: 419px;
     display: inline-block;
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid3{
-    width: 320px;
+    width: 25%;
     height: 419px;
     display: inline-block;
     box-sizing: border-box;
@@ -194,7 +195,8 @@ div.digi-grid1>div.digi-insideGrid>div.sub-grid3>div.t-sg3>h4{
 div.digi-grid1>div.digi-insideGrid>div.sub-grid3>div.pro-sg3{
     width: 319px;
     height: 300px;
-    margin-top: 12px;
+    margin: 0 auto;
+
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid3>div.pro-sg3>div.pro-img{
     width: 315px;
@@ -231,23 +233,23 @@ div.digi-grid1>div.digi-insideGrid>div.sub-grid3>div.pro-sg3>div.pro-img>img:nth
 
 
 div.digi-grid1>div.digi-insideGrid>div.sub-grid4{
-    width: 320px;
+    width: 24%;
     height: 419px;
     display: inline-block;
 }
 
 div.digi-grid1>div.digi-insideGrid>div.sub-grid4{
-    width: 320px;
+    width: 24%;
     height: 419px;
     display: inline-block;
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid4{
-    width: 320px;
+    width: 24%;
     height: 419px;
     display: inline-block;
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid4{
-    width: 320px;
+    width: 24%;
     height: 419px;
     display: inline-block;
     box-sizing: border-box;
@@ -275,7 +277,7 @@ div.digi-grid1>div.digi-insideGrid>div.sub-grid4>div.t-sg4>h4{
 div.digi-grid1>div.digi-insideGrid>div.sub-grid4>div.pro-sg4{
     width: 319px;
     height: 300px;
-    margin-top: 12px;
+    margin: 0 auto;
 }
 div.digi-grid1>div.digi-insideGrid>div.sub-grid4>div.pro-sg4>div.pro-img{
     width: 315px;
